@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://q04sx7fywc6o"]
+
+[ext_resource type="Texture2D" uid="uid://07dn1gsw6enf" path="res://assets/PNG_Parts&Spriter_Animation/Ship1/Ship1.png" id="1_jjqx2"]
+[ext_resource type="Script" path="res://ship_scene/ship_1.gd" id="2_nynuh"]
+
+[node name="ShipScene" type="Node2D"]
+
+[node name="Ship1" type="Sprite2D" parent="."]
+position = Vector2(108, 281)
+texture = ExtResource("1_jjqx2")
+script = ExtResource("2_nynuh")
